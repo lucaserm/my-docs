@@ -1,36 +1,27 @@
-facebook:
-  label: Facebook
-  permalink: /facebook
-  description: Facebook tag description
-
-hello:
-  label: Hello
-  permalink: /hello
-  description: Hello tag description
-
-docusaurus:
-  label: Docusaurus
-  permalink: /docusaurus
-  description: Docusaurus tag description
-
-hola:
-  label: Hola
-  permalink: /hola
-  description: Hola tag description
-
-instagram:
-  label: Instagram
-  permalink: /instagram
-  description: Instagram tag description
-  
 comedyhub:
   label: ComedyHub
   
-sgpl:
-  label: SGPL
+  
+site:
+  label: Site
+  
+ms-compressor:
+  label: Microsserviço de Compressão
+  
+ms-moderacao:
+  label: Microsserviço de Moderação
+  
+moderation:
+  label: Site da Moderação
+  
+front-end:
+  label: Front-End
   
 api:
   label: API
+  
+sgpl:
+  label: SGPL
   
 sgpl-pub:
   label: SGPL Público
