@@ -22,6 +22,9 @@ Neste dia, foram realizadas melhorias significativas no sistema de memes, com fo
 
 3. **Filtragem das Collections Privadas**: Alteração para garantir que apenas o dono da coleção consiga visualizar suas coleções privadas.
 
+4. **Correção na Rota de Buscar Comentários**: Ajuste no createdAt do UserMemeComment para que a rota de comentários tivesse a paginação resolvida.
+
+
 ## Próximos Passos
 
 1. **Correção no Chat**: Ajustar o sistema de chat, separando-o da API principal para melhorar a escalabilidade e a manutenção.
@@ -36,3 +39,6 @@ Neste dia, foram realizadas melhorias significativas no sistema de memes, com fo
 ## Conclusão
 
 Foram feitas melhorias relevantes no sistema, que agora oferece uma melhor experiência ao usuário, com coleções privadas e exploração de memes mais eficiente. As tarefas pendentes, embora desafiadoras, são cruciais para a continuidade da evolução do sistema.
+
+
+
