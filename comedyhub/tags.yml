@@ -1,0 +1,39 @@
+facebook:
+  label: Facebook
+  permalink: /facebook
+  description: Facebook tag description
+
+hello:
+  label: Hello
+  permalink: /hello
+  description: Hello tag description
+
+docusaurus:
+  label: Docusaurus
+  permalink: /docusaurus
+  description: Docusaurus tag description
+
+hola:
+  label: Hola
+  permalink: /hola
+  description: Hola tag description
+
+instagram:
+  label: Instagram
+  permalink: /instagram
+  description: Instagram tag description
+  
+comedyhub:
+  label: ComedyHub
+  
+sgpl:
+  label: SGPL
+  
+api:
+  label: API
+  
+sgpl-pub:
+  label: SGPL Público
+  
+sgpl-app:
+  label: SGPL Front-End
