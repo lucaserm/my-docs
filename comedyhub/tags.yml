@@ -1,7 +1,3 @@
-comedyhub:
-  label: ComedyHub
-  
-  
 site:
   label: Site
   
@@ -20,11 +16,3 @@ front-end:
 api:
   label: API
   
-sgpl:
-  label: SGPL
-  
-sgpl-pub:
-  label: SGPL Público
-  
-sgpl-app:
-  label: SGPL Front-End

@@ -2,7 +2,7 @@
 slug: daily-update
 title: Atualização Diária
 authors: [lucaserm]
-tags: [comedyhub, api, ms-moderacao, ms-compressor]
+tags: [api, ms-moderacao, ms-compressor]
 date: 2025-02-11T09:00
 ---
 

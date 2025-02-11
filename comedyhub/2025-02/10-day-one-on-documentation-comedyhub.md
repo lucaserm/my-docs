@@ -2,7 +2,7 @@
 slug: day-one-on-documentation-comedyhub
 title: Primeiro Dia Documentando ComedyHub
 authors: [lucaserm]
-tags: [comedyhub, api]
+tags: [api]
 date: 2025-02-10T23:59
 ---
 
