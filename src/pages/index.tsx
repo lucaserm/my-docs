@@ -6,7 +6,7 @@ import Layout from '@theme/Layout';
 import Heading from '@theme/Heading';
 
 import styles from './index.module.css';
-import HomepageBlogPosts from "@site/src/components/HomepageBlogPosts";
+import Game from "@site/src/components/Game";
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
@@ -38,8 +38,8 @@ export default function Home(): ReactNode {
       title={`${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
       <HomepageHeader />
-      <main>
-        <HomepageBlogPosts />
+      <main style={{ position: "relative"}}>
+        <Game />
       </main>
     </Layout>
   );

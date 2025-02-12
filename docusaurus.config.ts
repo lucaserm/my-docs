@@ -47,23 +47,6 @@ const config: Config = {
     [
       '@docusaurus/plugin-content-blog',
       {
-        id: 'comedyhub',  // ID único para o primeiro blog
-        path: './comedyhub',  // Caminho para o primeiro blog
-        routeBasePath: 'comedyhub',  // Rota base para acessar o blog
-        blogSidebarCount: 0,
-        showReadingTime: true,
-        feedOptions: {
-          type: ['rss', 'atom'],
-        },
-        onInlineTags: 'warn',
-        onInlineAuthors: 'warn',
-        onUntruncatedBlogPosts: 'warn',
-        
-      },
-    ],
-    [
-      '@docusaurus/plugin-content-blog',
-      {
         id: 'sgpl',
         path: './sgpl',  // Caminho para o segundo blog
         routeBasePath: 'sgpl',  // Rota base para acessar o segundo blog
@@ -89,11 +72,6 @@ const config: Config = {
         src: 'img/logo.svg',
       },
       items: [
-        {
-          to: '/comedyhub',  // Link para o primeiro blog
-          label: 'ComedyHub',
-          position: 'left',
-        },
         {
           to: '/sgpl',  // Link para o segundo blog
           label: 'SGPL',
