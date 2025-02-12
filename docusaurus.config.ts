@@ -10,7 +10,7 @@ const config: Config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://my-docs-delta-vert.vercel.app/',
+  url: 'https://blog.lmacedo.site/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -36,28 +36,21 @@ const config: Config = {
       'classic',
       {
         docs: false,
+        blog:  {
+          path: './blog',  // Caminho para o segundo blog
+          routeBasePath: 'blog',  // Rota base para acessar o segundo blog
+          showReadingTime: true,
+          blogSidebarCount: 0,
+          feedOptions: {
+            type: ['rss', 'atom'],
+          },
+          onInlineTags: 'warn',
+          onInlineAuthors: 'warn',
+          onUntruncatedBlogPosts: 'warn',
+        },
         theme: {
           customCss: './src/css/custom.css',
         },
-      },
-    ],
-  ],
-  
-  plugins: [
-    [
-      '@docusaurus/plugin-content-blog',
-      {
-        id: 'sgpl',
-        path: './sgpl',  // Caminho para o segundo blog
-        routeBasePath: 'sgpl',  // Rota base para acessar o segundo blog
-        showReadingTime: true,
-        blogSidebarCount: 0,
-        feedOptions: {
-          type: ['rss', 'atom'],
-        },
-        onInlineTags: 'warn',
-        onInlineAuthors: 'warn',
-        onUntruncatedBlogPosts: 'warn',
       },
     ],
   ],
@@ -73,7 +66,7 @@ const config: Config = {
       },
       items: [
         {
-          to: '/sgpl',  // Link para o segundo blog
+          to: '/blog',  // Link para o segundo blog
           label: 'SGPL',
           position: 'left',
         },
