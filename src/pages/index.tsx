@@ -36,7 +36,7 @@ export default function Home(): ReactNode {
       description="Description will go into a meta tag in <head />">
       <HomepageHeader />
       <main style={{ position: "relative"}}>
-        <Game />
+        {/*<Game />*/}
       </main>
     </Layout>
   );
