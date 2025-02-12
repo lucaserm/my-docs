@@ -19,7 +19,7 @@ function HomepageHeader() {
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
           {/* Botões de links para as rotas de blog */}
-          <Link className="button button--secondary button--lg" to="/sgpl">
+          <Link className="button button--secondary button--lg" to="/blog">
             Visite o Blog SGPL
           </Link>
         </div>
