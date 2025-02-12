@@ -22,9 +22,6 @@ function HomepageHeader() {
           <Link className="button button--secondary button--lg" to="/comedyhub">
             Visite o Blog ComedyHub
           </Link>
-          <Link className="button button--secondary button--lg" to="/sgpl">
-            Visite o Blog SGPL
-          </Link>
         </div>
       </div>
     </header>
