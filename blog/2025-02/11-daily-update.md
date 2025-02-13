@@ -1,6 +1,5 @@
 ---
-slug: daily-update
-title: Atualização Diária
+title: Atualização Diária - 11/02
 authors: [lucaserm]
 tags: [api, ms-moderacao, ms-compressor]
 date: 2025-02-11T09:00

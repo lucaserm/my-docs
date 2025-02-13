@@ -1,5 +1,4 @@
 ---
-slug: day-one-on-documentation-comedyhub
 title: Primeiro Dia Documentando ComedyHub
 authors: [lucaserm]
 tags: [api]
