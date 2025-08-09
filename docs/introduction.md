@@ -28,4 +28,4 @@ O ComedyHub visa proporcionar uma experiência dinâmica e interativa para os us
 
 ---
 
-Este documento será ao deccorer do projeto para refletir a evolução do mesmo e as melhores práticas adotadas.
+Este documento será atualizado ao decorer do projeto para refletir a evolução do mesmo e as melhores práticas adotadas.
