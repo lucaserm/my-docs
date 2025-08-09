@@ -20,7 +20,10 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           {/* Botões de links para as rotas de blog */}
           <Link className="button button--secondary button--lg" to="/blog">
-            Visite o Blog ComedyHub
+            Go to blog
+          </Link>
+          <Link className="button button--secondary button--lg" to="/blog">
+            Go to documentation
           </Link>
         </div>
       </div>
