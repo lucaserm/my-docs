@@ -43,7 +43,7 @@ Deve ser possível filtrar notificações por:
 | **Campo**   | **Tipo**                                                         | **Descrição**                             |
 | ----------- | ---------------------------------------------------------------- | ----------------------------------------- |
 | `id`        | `string`                                                         | Identificador único                       |
-| `readAt`    | `Date \| null`                                                   | Data e hora de leitura (nulo se não lida) |
+| `readAt`    | `?Date`                                                          | Data e hora de leitura (nulo se não lida) |
 | `createdAt` | `Date`                                                           | Data e hora da criação                    |
 | `priority`  | `Priority`                                                       | Prioridade da notificação                 |
 | `userId`    | `string`                                                         | ID do usuário destinatário                |
@@ -203,19 +203,19 @@ Deve ser possível filtrar notificações por:
 
 - #### `Actor`
 
-| **Campo** | **Tipo**       |
-| --------- | -------------- |
-| id        | string         |
-| avatarUrl | string \| null |
-| username  | string         |
-| name      | string         |
+| **Campo** | **Tipo**  |
+| --------- | --------- |
+| id        | `string`  |
+| avatarUrl | `?string` |
+| username  | `string`  |
+| name      | `string`  |
 
 - #### `PostPreview`
 
-| **Campo**    | **Tipo**         |
-| ------------ | ---------------- |
-| id           | `string`         |
-| thumbnailUrl | `string \| null` |
+| **Campo**    | **Tipo**  |
+| ------------ | --------- |
+| id           | `string`  |
+| thumbnailUrl | `?string` |
 
 <aside>
 💡 `thumbnailUrl` pode ser `null` porque o Post pode estar em revisão.

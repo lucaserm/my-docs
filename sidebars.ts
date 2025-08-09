@@ -2,6 +2,7 @@ import type { SidebarsConfig } from "@docusaurus/plugin-content-docs";
 const sidebars: SidebarsConfig = {
   docs: [
     "introduction",
+    "api-reference",
     // {
     //   type: "category",
     //   label: "Quick Start",
@@ -20,13 +21,26 @@ const sidebars: SidebarsConfig = {
       label: "Planning",
       link: {
         type: "generated-index",
-        description:
-          "Let's learn about the most important Docusaurus concepts!",
+        // description:
+        //   "Let's learn about the most important Docusaurus concepts!",
         image: "/img/logo.png",
         keywords: ["planning"],
       },
       collapsed: false,
       items: ["planning/notifications"],
+    },
+    {
+      type: "category",
+      label: "Topics",
+      link: {
+        type: "generated-index",
+        // description:
+        // "Let's learn about the most important Docusaurus concepts!",
+        image: "/img/logo.png",
+        keywords: ["topics"],
+      },
+      collapsed: false,
+      items: ["topics/rate-limits"],
     },
     // {
     //   items: [
