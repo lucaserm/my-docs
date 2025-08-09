@@ -133,3 +133,20 @@ API users that regularly hit and ignore rate limits will have their API keys rev
 
 Certain endpoints in the API are documented to accept booleans for their query string parameters.
 While there is no standard system for boolean representation in query string parameters, Discord represents such cases using `True`, `true`, or `1` for true and `False`, `false` or `0` for false.
+
+## Uploading Files
+
+<aside>
+> The file upload size limit applies to each file in a request. The default limit is `10 MiB` for all users, but may be higher for users depending on their VIP status. The `attachment_size_limit` value provided when working with interactions is calculated as the maximum of these values.
+</aside>
+
+Some endpoints support file attachments, indicated by the `file` parameter. To add file, the standard `application/json` body must be replaced by a `multipart/form-data` body.
+All `file` parameters must include a valid `Content-Disposition` subpart header with a `filename` and unique `name` parameter.
+
+```http
+----boundary
+Content-Disposition: form-data; name="file"; filename="1708534988862.jpeg"
+Content-Type: image/jpeg
+
+----boundary
+```
