@@ -126,6 +126,11 @@ const sidebars: SidebarsConfig = {
       label: "Blocos e Bancadas",
       items: ["bloc-and-caucus/create-bloc-and-caucus"],
     },
+    {
+      type: "category",
+      label: "Unidade Organizacional",
+      items: ["organizational-unit/create-organizational-unit"],
+    },
     // {
     //   type: "category",
     //   label: "Quick Start",
