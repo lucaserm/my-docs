@@ -103,6 +103,11 @@ const sidebars: SidebarsConfig = {
       label: "Revogação",
       items: ["repeal/create-repeal"],
     },
+    {
+      type: "category",
+      label: "Signatário",
+      items: ["signatory/create-signatory"],
+    },
     // {
     //   type: "category",
     //   label: "Quick Start",
