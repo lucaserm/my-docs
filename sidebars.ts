@@ -43,6 +43,11 @@ const sidebars: SidebarsConfig = {
       label: "Movimentação Interna",
       items: ["internal-movement/create-internal-movement"],
     },
+    {
+      type: "category",
+      label: "Protocolo",
+      items: ["protocol/create-protocol"],
+    },
     // {
     //   type: "category",
     //   label: "Quick Start",
