@@ -1,7 +1,7 @@
 # Criar Comissão
 
-**EU, ENQUANTO** usuário com permissões adequadas
-**DESEJO** criar **OU** editar **OU** remover evento de Comissão
+**EU, ENQUANTO** usuário com permissões adequadas\
+**DESEJO** criar **OU** editar **OU** remover evento de Comissão\
 **PARA** inserir **OU** adaptar **OU** remover os dados de Comissão
 
 ## CA01: Cadastrar novo Comissão
