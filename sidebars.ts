@@ -58,6 +58,21 @@ const sidebars: SidebarsConfig = {
       label: "Comissão",
       items: ["committee/create-committee"],
     },
+    {
+      type: "category",
+      label: "Relator na Comissão",
+      items: ["committee-reporter/create-committee-reporter"],
+    },
+    {
+      type: "category",
+      label: "Votação na Comissão",
+      items: ["committee-voting/create-committee-voting"],
+    },
+    {
+      type: "category",
+      label: "Votação no Plenário",
+      items: ["plenary-voting/create-plenary-voting"],
+    },
     // {
     //   type: "category",
     //   label: "Quick Start",

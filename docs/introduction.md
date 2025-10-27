@@ -24,7 +24,6 @@ Este site de documentações apresenta uma visão geral técnica do sistema SGPL
 - **CA:** Critério de Aceite.
 - **RN's:** Regras de Negócio.
 - **MSSQL:** Microsoft SQL Server.
-- **MongoDB:** MongoDB.
 
 ---
 
