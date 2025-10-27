@@ -2,27 +2,16 @@ import type * as Preset from "@docusaurus/preset-classic";
 import type { Config } from "@docusaurus/types";
 import { themes as prismThemes } from "prism-react-renderer";
 
-// This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
-
 const config: Config = {
-  title: "Developers ComedyHub",
-  tagline: "Dinosaurs are cool",
+  title: "Developers SGPL",
+  tagline: "Sistema de Gestão de Processos Legislativos",
   favicon: "img/favicon.ico",
-
-  // Set the production url of your site here
   url: "https://my-docs-delta-vert.vercel.app/",
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
-
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: "lucaserm", // Usually your GitHub org/user name.
-  projectName: "my-docs", // Usually your repo name.
-
+  organizationName: "lucaserm",
+  projectName: "my-docs",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
-
   i18n: {
     defaultLocale: "pt-br",
     locales: ["pt-br"],
@@ -36,20 +25,6 @@ const config: Config = {
           path: "./docs",
           routeBasePath: "docs",
           sidebarPath: "./sidebars.ts",
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-        },
-        blog: {
-          path: "./blog", // Caminho para o primeiro blog
-          routeBasePath: "blog", // Rota base para acessar o blog
-          blogSidebarCount: 0,
-          showReadingTime: true,
-          feedOptions: {
-            type: ["rss", "atom"],
-          },
-          onInlineTags: "warn",
-          onInlineAuthors: "warn",
-          onUntruncatedBlogPosts: "warn",
         },
         theme: {
           customCss: "./src/css/custom.css",
@@ -61,17 +36,12 @@ const config: Config = {
   themeConfig: {
     image: "img/logo.png",
     navbar: {
-      title: "Developers",
+      title: "SGPL Team",
       logo: {
-        alt: "ComedyHub Logo",
-        src: "img/logo.svg",
+        alt: "SGPL Logo",
+        src: "img/logo.png",
       },
       items: [
-        {
-          to: "/blog",
-          label: "Blog",
-          position: "left",
-        },
         {
           to: "/docs",
           label: "Documentação",

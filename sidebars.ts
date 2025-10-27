@@ -2,7 +2,27 @@ import type { SidebarsConfig } from "@docusaurus/plugin-content-docs";
 const sidebars: SidebarsConfig = {
   docs: [
     "introduction",
-    "api-reference",
+    "credentials",
+    {
+      type: "category",
+      label: "Arquitetura",
+      items: [
+        "architecture/arch-patterns",
+        "architecture/controllers",
+        "architecture/services",
+        "architecture/repositories",
+      ],
+    },
+    {
+      type: "category",
+      label: "Proposição",
+      items: ["proposition/create-proposition"],
+    },
+    {
+      type: "category",
+      label: "Emenda",
+      items: ["amendment/create-amendment"],
+    },
     // {
     //   type: "category",
     //   label: "Quick Start",
@@ -15,33 +35,18 @@ const sidebars: SidebarsConfig = {
     //   },
     //   collapsed: false,
     //   items: ["quick-start/overview-of-apps", "quick-start/getting-started"],
+    // // },
+    // {
+    //   type: "category",
+    //   label: "Topics",
+    //   link: {
+    //     type: "generated-index",
+    //     image: "/img/logo.png",
+    //     keywords: ["topics"],
+    //   },
+    //   collapsed: false,
+    //   items: ["topics/rate-limits"],
     // },
-    {
-      type: "category",
-      label: "Planning",
-      link: {
-        type: "generated-index",
-        // description:
-        //   "Let's learn about the most important Docusaurus concepts!",
-        image: "/img/logo.png",
-        keywords: ["planning"],
-      },
-      collapsed: false,
-      items: ["planning/notifications"],
-    },
-    {
-      type: "category",
-      label: "Topics",
-      link: {
-        type: "generated-index",
-        // description:
-        // "Let's learn about the most important Docusaurus concepts!",
-        image: "/img/logo.png",
-        keywords: ["topics"],
-      },
-      collapsed: false,
-      items: ["topics/rate-limits"],
-    },
     // {
     //   items: [
     //     "guides/creating-pages",

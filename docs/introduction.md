@@ -1,30 +1,30 @@
 ---
 id: introduction
-title: Intro
+title: Introdução
 slug: /
 ---
 
-# Introdução ao Projeto ComedyHub
+# Introdução ao Projeto SGPL
 
-Este site de documentações apresenta uma visão geral técnica do sistema ComedyHub, uma plataforma social focada no compartilhamento e interação com conteúdo humorístico.
-
-## Objetivo do Projeto
-
-O ComedyHub visa proporcionar uma experiência dinâmica e interativa para os usuários, permitindo a publicação, curtição, comentários e compartilhamento de conteúdos humorísticos, além de um sistema robusto de notificações para manter os usuários informados em tempo real.
+Este site de documentações apresenta uma visão geral técnica do sistema SGPL, uma plataforma de gerenciamento de processos legislativos da assembleia legislativa do Mato Grosso do Sul
 
 ## Arquitetura do Sistema
 
-- **Backend:** Desenvolvido em Java com Spring Boot, utilizando PostgreSQL para armazenamento relacional e Redis para cache e filas.
-- **Frontend:** Aplicação web construída com React e Vite, garantindo performance e SEO.
-- **Mobile:** Aplicação mobile construída com React Native.
-- **Autenticação e Autorização:** Implementação via JWT para segurança e controle de acesso.
-- **Integração com serviços externos:** APIs para envio de emails, push notifications e processamento de mídia.
+- **Backend:** Desenvolvido em Java com Spring Boot, utilizando MSSQL para armazenamento relacional e MongoDB para relacionamento com outros sistemas.
+- **Frontend:** Aplicação web construída com AngularJS.
+- **Autenticação e Autorização:** Implementação via Cookies para controle de acesso.
 
-<!-- ## Como contribuir
+## Documentação
 
-- Consulte as [Diretrizes de Contribuição](./contributing.md) para boas práticas.
-- Use os padrões definidos para código, testes e documentação.
-- Reporte bugs e solicite features através do sistema de issues. -->
+- **Proposições:** Documentação sobre o processo de criação e tramitação de proposições.
+
+## Siglas
+
+- **SGPL:** Sistema de Gerenciamento de Processos Legislativos.
+- **CA:** Critério de Aceite.
+- **RN's:** Regras de Negócio.
+- **MSSQL:** Microsoft SQL Server.
+- **MongoDB:** MongoDB.
 
 ---
 

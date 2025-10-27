@@ -18,11 +18,7 @@ function HomepageHeader() {
         </Heading>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
-          {/* Botões de links para as rotas de blog */}
-          <Link className="button button--secondary button--lg" to="/blog">
-            Go to blog
-          </Link>
-          <Link className="button button--secondary button--lg" to="/blog">
+          <Link className="button button--secondary button--lg" to="/docs">
             Go to documentation
           </Link>
         </div>
