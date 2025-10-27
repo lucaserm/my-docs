@@ -53,6 +53,11 @@ const sidebars: SidebarsConfig = {
       label: "Período de Pauta",
       items: ["docket-period/create-docket-period"],
     },
+    {
+      type: "category",
+      label: "Comissão",
+      items: ["committee/create-committee"],
+    },
     // {
     //   type: "category",
     //   label: "Quick Start",
