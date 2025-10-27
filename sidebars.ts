@@ -38,6 +38,11 @@ const sidebars: SidebarsConfig = {
       label: "Anexo",
       items: ["attachment/create-attachment"],
     },
+    {
+      type: "category",
+      label: "Movimentação Interna",
+      items: ["internal-movement/create-internal-movement"],
+    },
     // {
     //   type: "category",
     //   label: "Quick Start",
