@@ -93,6 +93,16 @@ const sidebars: SidebarsConfig = {
       label: "Partido",
       items: ["political-party/create-political-party"],
     },
+    {
+      type: "category",
+      label: "Parlamentar",
+      items: ["parliamentarian/create-parliamentarian"],
+    },
+    {
+      type: "category",
+      label: "Revogação",
+      items: ["repeal/create-repeal"],
+    },
     // {
     //   type: "category",
     //   label: "Quick Start",
