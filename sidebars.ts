@@ -28,6 +28,11 @@ const sidebars: SidebarsConfig = {
       label: "Veto",
       items: ["veto/create-veto"],
     },
+    {
+      type: "category",
+      label: "Regime de Tramitação",
+      items: ["procedure/create-procedure"],
+    },
     // {
     //   type: "category",
     //   label: "Quick Start",
