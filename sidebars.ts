@@ -108,6 +108,21 @@ const sidebars: SidebarsConfig = {
       label: "Signatário",
       items: ["signatory/create-signatory"],
     },
+    {
+      type: "category",
+      label: "Mesa Diretora",
+      items: ["presiding-board/create-presiding-board"],
+    },
+    {
+      type: "category",
+      label: "Entidade Externa",
+      items: ["external-entity/create-external-entity"],
+    },
+    {
+      type: "category",
+      label: "Blocos e Bancadas",
+      items: ["bloc-and-caucus/create-bloc-and-caucus"],
+    },
     // {
     //   type: "category",
     //   label: "Quick Start",
