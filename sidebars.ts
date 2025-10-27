@@ -48,6 +48,11 @@ const sidebars: SidebarsConfig = {
       label: "Protocolo",
       items: ["protocol/create-protocol"],
     },
+    {
+      type: "category",
+      label: "Período de Pauta",
+      items: ["docket-period/create-docket-period"],
+    },
     // {
     //   type: "category",
     //   label: "Quick Start",
