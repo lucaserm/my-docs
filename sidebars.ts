@@ -78,6 +78,11 @@ const sidebars: SidebarsConfig = {
       label: "Ofício",
       items: ["official-letter/create-official-letter"],
     },
+    {
+      type: "category",
+      label: "Texto Final",
+      items: ["final-text/create-final-text"],
+    },
     // {
     //   type: "category",
     //   label: "Quick Start",
