@@ -16,7 +16,10 @@ const sidebars: SidebarsConfig = {
     {
       type: "category",
       label: "Proposição",
-      items: ["proposition/create-proposition"],
+      items: [
+        "proposition/create-proposition",
+        "proposition/create-proposition-type",
+      ],
     },
     {
       type: "category",
@@ -31,7 +34,7 @@ const sidebars: SidebarsConfig = {
     {
       type: "category",
       label: "Regime de Tramitação",
-      items: ["procedure/create-procedure"],
+      items: ["procedure/create-procedure", "procedure/create-procedure-type"],
     },
     {
       type: "category",
@@ -158,6 +161,12 @@ const sidebars: SidebarsConfig = {
         "activity/create-activity-by-profile",
       ],
     },
+    {
+      type: "category",
+      label: "Assunto",
+      items: ["subject/create-subject"],
+    },
+    "virtus",
   ],
 };
 export default sidebars;
