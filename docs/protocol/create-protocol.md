@@ -52,21 +52,21 @@
 **QUANDO** o usuário com permissão `Proposicao.NovaMovimentacao.Protocolo.Editar` inicie um cadastro de protocolo\
 **E** a configuração do tipo da proposta permitir gerar o número de protocolo\
 **E** clique em `Gerar` no número do protocolo\
-**ENTÃO** o sistema deve inserir um novo número de protocolo a partir do último cadastro no formato `XXXXX/20XX` (<número>/<ano>)
+**ENTÃO** o sistema deve inserir um novo número de protocolo a partir do último cadastro no formato `XXXXX/20XX` (:número/:ano)
 
 ## CA08: Gerar número de processo
 
 **QUANDO** o usuário com permissão `Proposicao.NovaMovimentacao.Protocolo.Editar` inicie um cadastro de protocolo\
 **E** a configuração do tipo da proposta permitir gerar o número de processo\
 **E** clique em `Gerar` no número do processo\
-**ENTÃO** o sistema deve inserir um novo número de processo a partir do último cadastro no formato `XXXXX/20XX` (<número>/<ano>)
+**ENTÃO** o sistema deve inserir um novo número de processo a partir do último cadastro no formato `XXXXX/20XX` (:número/:ano)
 
 ## CA09: Gerar número de projeto
 
 **QUANDO** o usuário com permissão `Proposicao.NovaMovimentacao.Protocolo.Editar` inicie um cadastro de protocolo\
 **E** a configuração do tipo da proposta permitir gerar o número de projeto\
 **E** clique em `Gerar` no número do projeto\
-**ENTÃO** o sistema deve inserir um novo número de projeto a partir do último cadastro no formato `XXXXX/20XX` (<número>/<ano>)
+**ENTÃO** o sistema deve inserir um novo número de projeto a partir do último cadastro no formato `XXXXX/20XX` (:número/:ano)
 
 ## CA10: Impedir de gerar número
 
