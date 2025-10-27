@@ -83,6 +83,11 @@ const sidebars: SidebarsConfig = {
       label: "Texto Final",
       items: ["final-text/create-final-text"],
     },
+    {
+      type: "category",
+      label: "Situação Definitiva",
+      items: ["final-situation/create-final-situation"],
+    },
     // {
     //   type: "category",
     //   label: "Quick Start",
