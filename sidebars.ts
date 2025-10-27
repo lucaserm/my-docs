@@ -73,6 +73,11 @@ const sidebars: SidebarsConfig = {
       label: "Votação no Plenário",
       items: ["plenary-voting/create-plenary-voting"],
     },
+    {
+      type: "category",
+      label: "Ofício",
+      items: ["official-letter/create-official-letter"],
+    },
     // {
     //   type: "category",
     //   label: "Quick Start",
