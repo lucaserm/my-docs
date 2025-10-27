@@ -88,6 +88,11 @@ const sidebars: SidebarsConfig = {
       label: "Situação Definitiva",
       items: ["final-situation/create-final-situation"],
     },
+    {
+      type: "category",
+      label: "Partido",
+      items: ["political-party/create-political-party"],
+    },
     // {
     //   type: "category",
     //   label: "Quick Start",
