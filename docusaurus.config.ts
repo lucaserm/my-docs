@@ -48,11 +48,6 @@ const config: Config = {
           position: "left",
         },
         {
-          href: "https://github.com/facebook/docusaurus",
-          label: "GitHub",
-          position: "right",
-        },
-        {
           type: "localeDropdown",
           position: "right",
         },
@@ -60,31 +55,24 @@ const config: Config = {
     },
     footer: {
       style: "dark",
-      links: [
-        {
-          title: "Community",
-          items: [
-            {
-              label: "Discord do ComedyHub",
-              href: "https://discordapp.com/invite/comedyhub",
-            },
-          ],
-        },
-        {
-          title: "More",
-          items: [
-            {
-              label: "GitHub",
-              href: "https://github.com/lucaserm",
-            },
-            {
-              label: "LinkedIn",
-              href: "https://linkedin.com/in/lucaserm",
-            },
-          ],
-        },
-      ],
-      copyright: `Copyright © ${new Date().getFullYear()} Lucas Macedo, Inc. Built with Docusaurus.`,
+      // links: [
+      //   {},
+      //   {},
+      //   {
+      //     title: "More",
+      //     items: [
+      //       {
+      //         label: "GitHub",
+      //         href: "https://github.com/lucaserm",
+      //       },
+      //       {
+      //         label: "LinkedIn",
+      //         href: "https://linkedin.com/in/lucaserm",
+      //       },
+      //     ],
+      //   },
+      // ],
+      copyright: `Copyright © ${new Date().getFullYear()} Lucas Macedo.`,
     },
     prism: {
       theme: prismThemes.github,

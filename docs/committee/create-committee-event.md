@@ -1,4 +1,4 @@
-# Criar Comissão
+# Criar Evento de Comissão
 
 **EU, ENQUANTO** usuário com permissões adequadas\
 **DESEJO** criar **OU** editar **OU** remover evento de Comissão\

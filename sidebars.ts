@@ -56,7 +56,10 @@ const sidebars: SidebarsConfig = {
     {
       type: "category",
       label: "Comissão",
-      items: ["committee/create-committee"],
+      items: [
+        "committee/create-committee-event",
+        "committee/create-committee-entity",
+      ],
     },
     {
       type: "category",
