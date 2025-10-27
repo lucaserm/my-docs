@@ -23,6 +23,11 @@ const sidebars: SidebarsConfig = {
       label: "Emenda",
       items: ["amendment/create-amendment"],
     },
+    {
+      type: "category",
+      label: "Veto",
+      items: ["veto/create-veto"],
+    },
     // {
     //   type: "category",
     //   label: "Quick Start",
