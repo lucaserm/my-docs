@@ -33,6 +33,11 @@ const sidebars: SidebarsConfig = {
       label: "Regime de Tramitação",
       items: ["procedure/create-procedure"],
     },
+    {
+      type: "category",
+      label: "Anexo",
+      items: ["attachment/create-attachment"],
+    },
     // {
     //   type: "category",
     //   label: "Quick Start",
