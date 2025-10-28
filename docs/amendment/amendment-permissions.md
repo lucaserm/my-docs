@@ -1,6 +1,8 @@
 # Permissões da Emenda
 
-## `Proposicao.NovaMovimentacao.Emenda.Editar`
+---
+
+### `Proposicao.NovaMovimentacao.Emenda.Editar`
 
 - Cria Emenda
 - Edita Emenda
@@ -9,10 +11,12 @@
 - Insere signatários
 - Envia para protocolar
 
-## `Proposicao.NovaMovimentacao.Emenda.Excluir`
+### `Proposicao.NovaMovimentacao.Emenda.Excluir`
 
 - Exclui Emenda
 
-## `Proposicao.NovaMovimentacao.Emenda.ImprimirRecibo`
+### `Proposicao.NovaMovimentacao.Emenda.ImprimirRecibo`
 
 - Imprime Recibo de Emenda
+
+---

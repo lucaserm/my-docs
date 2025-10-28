@@ -1,8 +1,12 @@
 # Configuração de Atividade por perfil
 
+---
+
 **EU, ENQUANTO** usuário com permissões adequadas\
 **DESEJO** criar **OU** editar **OU** remover Atividade por perfil\
 **PARA** inserir **OU** adaptar **OU** remover os dados de Atividade por perfil
+
+---
 
 ## CA01: Listar todas os perfis do sistema
 
@@ -24,3 +28,5 @@
 **E** editar um dos dados\
 **E** clicar em cancelar\
 **ENTÃO** o sistema deve voltar com a listagem sem qualquer campo em aberto
+
+---

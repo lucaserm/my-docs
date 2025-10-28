@@ -1,5 +1,7 @@
 # Signatários na Emenda
 
+---
+
 ## CA01: Inserir signatários não obrigatórios
 
 **QUANDO** o usuário com permissão `Proposicao.NovaMovimentacao.Emenda.Editar` criar uma nova Emenda\
@@ -21,3 +23,5 @@
 **QUANDO** o usuário com permissão `Proposicao.NovaMovimentacao.Emenda.Editar` criar uma nova Emenda\
 **E** parâmetro `br.com.azi.sgpl.integracao.signatarios.Emenda.usuarioSelecionado.isAssina` for `False`\
 **ENTÃO** o sistema não deve permitir inserir signatários
+
+---

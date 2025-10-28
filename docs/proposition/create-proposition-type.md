@@ -4,6 +4,8 @@
 **DESEJO** criar **OU** editar **OU** remover Tipo de Proposição\
 **PARA** inserir **OU** adaptar **OU** remover os dados de Tipo de Proposição
 
+---
+
 ## CA01: Cadastrar novo Tipo de Proposição
 
 **QUANDO** o usuário com permissão `Cadastros.TiposProposicao.Editar` clique em `Tipo de Proposição` no menu lateral esquerdo\

@@ -1,10 +1,6 @@
----
-title: Criar Proposição
----
-
 # Criar Proposição
 
-**EU, ENQUANTO** usuário com permissão `Proposicao.NovaProposiocao.DadosGerais.Editar`\
+**EU, ENQUANTO** usuário com permissão `Proposicao.NovaProposicao.DadosGerais.Editar`\
 **DESEJO** criar uma proposição\
 **PARA** iniciar o processo de tramitação dessa proposta
 

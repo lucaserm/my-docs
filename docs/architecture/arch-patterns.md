@@ -2,12 +2,15 @@
 
 O SGPL utiliza de alguns padrões de arquitetura, mas antes de aprofundar nos padrões, é importante entender o contexto em que eles são aplicados.
 
+---
+
 ## Arquitetura Monolítica
 
 A arquitetura monolítica é uma abordagem de desenvolvimento de software onde todos os componentes do sistema são implementados em uma única aplicação. Essa abordagem é simples e fácil de entender, mas pode ser limitada em termos de escalabilidade e manutenibilidade.
 
 Conceitos como [Controllers](controllers.md), [Services](services.md) são muito importantes para o funcionamento do sistema. Eles são responsáveis por gerenciar as requisições do usuário e interagir com os dados do sistema. Além disso, o [Repository](repositories.md) é responsável por armazenar e recuperar dados do sistema.
 
+---
 
 ## Ports and Adapters (Hexagonal)
 
@@ -20,3 +23,5 @@ Por isso a arquitetura do api-sgpl consiste em:
 - `adapter`: tudo que entra ou sai do sistema
 - `application`: tudo que interage com a aplicação (infra)
 - `domain`: tudo que interage com o domínio da aplicação
+
+---

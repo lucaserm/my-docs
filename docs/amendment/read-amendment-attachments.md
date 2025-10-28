@@ -1,10 +1,15 @@
 # Buscar anexos de uma Emenda
 
+---
+
 **EU, ENQUANTO** usuário com permissões adequadas\
 **DESEJO** buscar anexos de um evento de Emenda\
 **PARA** averiguar os dados de Emenda
 
+---
+
 # CA01: Baixar arquivos cadastrados na Emenda
+
 **QUANDO** o usuário com permissão `Proposicao.NovaMovimentacao.Emenda.Editar` acessar uma proposta com Emenda\
 **E** a Emenda contenha um anexo inserido\
 **E** clicar em um dos anexos\
@@ -23,3 +28,5 @@
 **OU** um usuário externo acessar uma proposta\
 **E** parâmetro `br.com.azi.sgpl.evento.EMENDA.mostrarAnexo` for `False`\
 **ENTÃO** o sistema deve impedir de visualizar e realizar download do anexo da Emenda na linha do tempo
+
+---
