@@ -1,8 +1,12 @@
 # Criar Revogação
 
+---
+
 **EU, ENQUANTO** usuário com permissões adequadas\
 **DESEJO** criar **OU** editar **OU** remover evento de Revogação\
 **PARA** inserir **OU** adaptar **OU** remover os dados de Revogação
+
+---
 
 ## CA01: Cadastrar novo Revogação
 
@@ -101,3 +105,5 @@
 **E** que houver Revogação registrada\
 **E** clicar em `Imprimir Revogação` na linha do tempo\
 **ENTÃO** o sistema deve abrir documento nato digital da Revogação
+
+---

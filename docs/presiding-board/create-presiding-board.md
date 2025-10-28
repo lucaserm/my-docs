@@ -1,8 +1,12 @@
 # Cadastros de Mesa Diretora
 
+---
+
 **EU, ENQUANTO** usuário com permissões adequadas\
 **DESEJO** criar **OU** editar **OU** remover Mesa Diretora\
 **PARA** inserir **OU** adaptar **OU** remover os dados de Mesa Diretora
+
+---
 
 ## CA01: Cadastrar nova Mesa Diretora
 
@@ -111,3 +115,5 @@
 **E** apertar `Limpar filtro`\
 **ENTÃO** o sistema deve limpar os campos\
 **E** listar todos os membros
+
+---

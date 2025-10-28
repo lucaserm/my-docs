@@ -1,5 +1,7 @@
 # Criar Proposição
 
+---
+
 **EU, ENQUANTO** usuário com permissão `Proposicao.NovaProposicao.DadosGerais.Editar`\
 **DESEJO** criar uma proposição\
 **PARA** iniciar o processo de tramitação dessa proposta
@@ -8,7 +10,7 @@
 
 ## CA01: Criar Proposta
 
-**QUANDO** o usuário com permissão clicar em “nova proposição” no *menu lateral*\
+**QUANDO** o usuário com permissão clicar em “nova proposição” no _menu lateral_\
 **OU** na listagem de proposições\
 **E** preencher os campos obrigatórios da criação de uma proposta\
 **E** clicar em salvar\
@@ -16,7 +18,6 @@
 **E** criar eventos de dados gerais\
 **E** de regime de tramitação\
 **E** mostrar os dados de “Autor”, “Coautor(es)”, “Tipo de Proposição”, “Data de cadastro”, “Sigla” e “Ementa” no cabeçalho da proposta
-
 
 ## CA02: Obrigar inserir ementa
 
@@ -40,3 +41,5 @@
 - [x] Deve-se criar o evento de 'Regime de Tramitação' ao criar uma proposição
 - [x] Deve existir os campos de "Autor", "Coautor(es)", "Tipo de Proposição", "Data de cadastro", "Sigla" e "Ementa"
 - [x] O campo 'Tipo de Proposta' deve ser obrigatório para a criação de uma nova proposição
+
+---

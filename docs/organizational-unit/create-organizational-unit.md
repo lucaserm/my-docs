@@ -1,8 +1,12 @@
 # Cadastros de Unidade Organizacional
 
+---
+
 **EU, ENQUANTO** usuário com permissões adequadas\
 **DESEJO** criar **OU** editar **OU** remover Unidade Organizacional\
 **PARA** inserir **OU** adaptar **OU** remover os dados de uma Unidade Organizacional
+
+---
 
 ## CA01: Cadastrar nova Unidade Organizacional
 
@@ -49,8 +53,8 @@
 **QUANDO** o usuário com permissão `Cadastros.UnidadeOrganizacional.UsuarioUO.Editar` estiver cadastrando\
 **OU** editando um já cadastrado\
 **E** clicar em `Usuários` dentro da edição`\
-**OU** clicar em `Membros` na listagem de Unidades Organizacionais\
-**E** clicar em `Novo membro diretor`\
+**OU** clicar em `Membros`na listagem de Unidades Organizacionais\
+**E** clicar em`Novo membro diretor`\
 **E** selecionar um dos parlamentares cadastrados no sistema\
 **E** preencher os dados necessários\
 **E** clicar em salvar\
@@ -129,3 +133,5 @@ E/**OU** preencher os dados necessários\
 **E** preencher os dados necessários\
 **E** clicar em salvar\
 **ENTÃO** o sistema deve cadastrar um novo endereço e contato
+
+---

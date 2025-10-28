@@ -1,8 +1,12 @@
 # Cadastros de Signatários
 
+---
+
 **EU, ENQUANTO** usuário com permissões adequadas\
 **DESEJO** criar **OU** editar **OU** remover Signatários\
 **PARA** inserir **OU** adaptar **OU** remover os dados de Signatários
+
+---
 
 ## CA01: Cadastrar novo Signatário
 
@@ -41,3 +45,5 @@
 **QUANDO** o usuário com permissão `Cadastros.Signatário.Visualizar` clique em `Signatários` no menu lateral esquerdo\
 **E** clicar em visualizar um dos Signatários listados\
 **ENTÃO** o sistema deve direcionar o usuário para uma tela de apenas visualização dos dados
+
+---

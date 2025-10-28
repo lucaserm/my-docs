@@ -1,8 +1,12 @@
 # Criar Votação na Comissão
 
+---
+
 **EU, ENQUANTO** usuário com permissões adequadas\
 **DESEJO** criar **OU** editar **OU** remover evento de Votação na Comissão\
 **PARA** inserir **OU** adaptar **OU** remover os dados de Votação na Comissão
+
+---
 
 ## CA01: Cadastrar novo Votação na Comissão
 
@@ -89,3 +93,5 @@
 **E** que não houver protocolo registrada\
 **E** clicar em `Imprimir Votação na comissão` na linha do tempo\
 **ENTÃO** o sistema deve abrir documento nato digital
+
+---

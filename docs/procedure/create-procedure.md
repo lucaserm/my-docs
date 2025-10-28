@@ -1,8 +1,12 @@
 # Criar Regime de Tramitação
 
+---
+
 **EU, ENQUANTO** usuário com permissões adequadas\
 **DESEJO** criar **OU** editar **OU** remover evento de regime de tramitação\
 **PARA** inserir **OU** adaptar **OU** remover os dados do regime de tramitação
+
+---
 
 ## CA01: Cadastrar novo regime de tramitação
 
@@ -46,3 +50,5 @@
 
 **QUANDO** o usuário com permissão `Proposicao.NovaMovimentacao.RegimeTramitacao.ImprimirRecibo` clique em Imprimir recibo de Regime de tramitação nas ações da linha do tempo\
 **ENTÃO** o sistema deve abrir documento de recibo do regime de tramitação
+
+---

@@ -1,8 +1,12 @@
 # Criar Período de Pauta
 
+---
+
 **EU, ENQUANTO** usuário com permissões adequadas\
 **DESEJO** criar **OU** editar **OU** remover evento de Período de Pauta\
 **PARA** inserir **OU** adaptar **OU** remover os dados de Período de Pauta
+
+---
 
 ## CA01: Cadastrar novo Período de Pauta
 
@@ -68,3 +72,5 @@
 **E** editar evento de periodo de pauta\
 **E** clicar em `Finalizar`\
 **ENTÃO** o sistema deve registrar como `Finalizada` ao lado do titulo do evento na linha do tempo
+
+---

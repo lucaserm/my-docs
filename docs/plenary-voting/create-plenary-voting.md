@@ -1,8 +1,12 @@
 # Criar Votação em Plenário
 
+---
+
 **EU, ENQUANTO** usuário com permissões adequadas\
 **DESEJO** criar **OU** editar **OU** remover evento de Votação em Plenário\
 **PARA** inserir **OU** adaptar **OU** remover os dados de Votação em Plenário
+
+---
 
 ## CA01: Cadastrar novo Votação em plenário
 
@@ -102,3 +106,5 @@
 **E** que não houver protocolo registrada\
 **E** clicar em “Imprimir Votação em plenário” na linha do tempo\
 **ENTÃO** o sistema deve abrir documento nato digital
+
+---

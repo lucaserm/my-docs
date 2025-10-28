@@ -1,8 +1,12 @@
 # Cadastros de partidos
 
+---
+
 **EU, ENQUANTO** usuário com permissões adequadas\
 **DESEJO** criar **OU** editar **OU** remover partidos\
 **PARA** inserir **OU** adaptar **OU** remover os dados de partidos
+
+---
 
 ## CA01: Cadastrar novo Partido
 
@@ -41,3 +45,5 @@
 **QUANDO** o usuário com permissão `Cadastros.Partido.Visualizar` clique em `Partidos` no menu lateral esquerdo\
 **E** clicar em visualizar um dos partidos listados\
 **ENTÃO** o sistema deve direcionar o usuário para uma tela de apenas visualização dos dados
+
+---

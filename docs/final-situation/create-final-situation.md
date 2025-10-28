@@ -1,8 +1,12 @@
 # Criar Situação definitiva
 
+---
+
 **EU, ENQUANTO** usuário com permissões adequadas\
 **DESEJO** criar **OU** editar **OU** remover evento de Situação definitiva\
 **PARA** inserir **OU** adaptar **OU** remover os dados de Situação definitiva
+
+---
 
 ## CA01: Cadastrar novo Situação definitiva
 
@@ -73,3 +77,5 @@
 **OU** um usuário externo acessar uma proposta\
 **E** parâmetro `br.com.azi.sgpl.evento.SIT_DEFINITIVA.mostrarAnexo` for `False`\
 **ENTÃO** o sistema deve impedir de visualizar e realizar download do anexo do Situação definitiva na linha do tempo
+
+---

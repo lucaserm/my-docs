@@ -1,8 +1,12 @@
 # Cadastros Períodos Sessão Parlamentar
 
+---
+
 **EU, ENQUANTO** usuário com permissões adequadas\
 **DESEJO** criar **OU** editar **OU** remover Sessão Parlamentar\
 **PARA** inserir **OU** adaptar **OU** remover os dados de uma Sessão Parlamentar
+
+---
 
 ## CA01: Cadastrar nova Sessão Parlamentar
 
@@ -65,3 +69,5 @@
 **E** apertar `Limpar filtro`\
 **ENTÃO** o sistema deve limpar os campos\
 **E** listar todos os membros
+
+---

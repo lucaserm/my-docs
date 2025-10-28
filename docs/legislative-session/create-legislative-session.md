@@ -1,8 +1,12 @@
 # Cadastro de Períodos Sessão Legislativa
 
+---
+
 **EU, ENQUANTO** usuário com permissões adequadas
 **DESEJO** criar **OU** editar **OU** remover Sessão Legislativa
 **PARA** inserir **OU** adaptar **OU** remover os dados de uma Sessão Legislativa
+
+---
 
 ## CA01: Cadastrar nova Sessão Legislativa
 
@@ -65,3 +69,5 @@
 **E** apertar `Limpar filtro`\
 **ENTÃO** o sistema deve limpar os campos\
 **E** listar todos os membros
+
+---

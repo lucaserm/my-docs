@@ -1,8 +1,12 @@
 # Criar Veto
 
+---
+
 **EU, ENQUANTO** usuário com permissões adequadas\
 **DESEJO** criar **OU** editar **OU** remover evento de Veto\
 **PARA** inserir **OU** adaptar **OU** remover os dados de Veto
+
+---
 
 ## CA01: Cadastrar novo Veto
 
@@ -101,3 +105,5 @@
 **E** que houver Veto Registrada\
 **E** clicar em `Imprimir Veto` na linha do tempo\
 **ENTÃO** o sistema deve abrir documento nato digital da Veto
+
+---

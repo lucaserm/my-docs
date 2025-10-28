@@ -1,8 +1,12 @@
 # Cadastros de Entidades Externas
 
+---
+
 **EU, ENQUANTO** usuário com permissões adequadas\
 **DESEJO** criar **OU** editar **OU** remover Entidades Externas\
 **PARA** inserir **OU** adaptar **OU** remover os dados de Entidades Externas
+
+---
 
 ## CA01: Cadastrar nova Entidade Externa
 
@@ -40,3 +44,5 @@
 **QUANDO** o usuário com permissão `Cadastros.EntidadeExterna.Visualizar` clique em `Entidades Externas` no menu lateral esquerdo\
 **E** clicar em visualizar um dos Entidades Externas listados\
 **ENTÃO** o sistema deve direcionar o usuário para uma tela de apenas visualização dos dados
+
+---

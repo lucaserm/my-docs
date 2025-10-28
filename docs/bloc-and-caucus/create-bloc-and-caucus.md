@@ -1,8 +1,12 @@
 # Cadastros de Blocos e Bancadas
 
+---
+
 **EU, ENQUANTO** usuário com permissões adequadas\
 **DESEJO** criar **OU** editar **OU** remover Blocos e Bancadas\
 **PARA** inserir **OU** adaptar **OU** remover os dados de Blocos e Bancadas
+
+---
 
 ## CA01: Cadastrar novo Blocos e Bancadas
 
@@ -119,3 +123,5 @@
 **E** apertar `Limpar filtro`\
 **ENTÃO** o sistema deve limpar os campos\
 **E** listar todos os membros
+
+---

@@ -1,8 +1,12 @@
 # Criar Protocolo
 
+---
+
 **EU, ENQUANTO** usuário com permissões adequadas\
 **DESEJO** criar **OU** editar **OU** remover evento de Protocolo\
 **PARA** inserir **OU** adaptar **OU** remover os dados de Protocolo
+
+---
 
 ## CA01: Cadastrar novo Protocolo
 
@@ -37,8 +41,8 @@
 **ENTÃO** o sistema deve realizar o download do arquivo
 
 ## CA05: Remover Protocolo
-`
-**QUANDO** o usuário com permissão `Proposicao.NovaMovimentacao.Protocolo.Excluir` clique em excluir nas ações da linha do tempo\
+
+`**QUANDO** o usuário com permissão`Proposicao.NovaMovimentacao.Protocolo.Excluir` clique em excluir nas ações da linha do tempo\
 **E** confirmar no modal\
 **ENTÃO** o sistema deve remover o evento da proposta
 
@@ -142,3 +146,5 @@
 **QUANDO** o usuário com permissão `Proposicao.NovaMovimentacao.Protocolo.Editar` inicie um cadastro de protocolo de emenda **OU** veto\
 **E** clique em `Gerar` no número da emenda **OU** veto\
 **ENTÃO** o sistema deve inserir um novo número de emenda **OU** veto a partir do último cadastro no formato `XXXXXX`
+
+---

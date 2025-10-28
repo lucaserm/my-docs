@@ -1,8 +1,12 @@
 # Criar Oficio
 
+---
+
 **EU, ENQUANTO** usuário com permissões adequadas\
 **DESEJO** criar **OU** editar **OU** remover evento de Oficio\
 **PARA** inserir **OU** adaptar **OU** remover os dados de Oficio
+
+---
 
 ## CA01: Cadastrar novo Oficio
 
@@ -67,3 +71,5 @@
 **OU** um usuário externo acessar uma proposta\
 **E** parâmetro `br.com.azi.sgpl.evento.Oficio.mostrarAnexo` for `False`\
 **ENTÃO** o sistema deve impedir de visualizar e realizar download do anexo na linha do tempo
+
+---

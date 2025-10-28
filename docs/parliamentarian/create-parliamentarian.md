@@ -1,8 +1,12 @@
 # Cadastros de parlamentares
 
+---
+
 **EU, ENQUANTO** usuário com permissões adequadas\
 **DESEJO** criar **OU** editar **OU** remover parlamentares\
 **PARA** inserir **OU** adaptar **OU** remover os dados de parlamentares
+
+---
 
 ## CA01: Cadastrar novo parlamentares
 
@@ -261,3 +265,5 @@
 **E** apertar `Limpar filtro`\
 **ENTÃO** o sistema deve limpar os campos\
 **E** listar todos os dados do histórico
+
+---

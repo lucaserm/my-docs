@@ -1,5 +1,7 @@
 # Cadastros de Tipo de Proposição
 
+---
+
 **EU, ENQUANTO** usuário com permissões adequadas\
 **DESEJO** criar **OU** editar **OU** remover Tipo de Proposição\
 **PARA** inserir **OU** adaptar **OU** remover os dados de Tipo de Proposição
@@ -42,3 +44,5 @@
 **QUANDO** o usuário com permissão `Cadastros.TiposProposicao.Visualizar` clique em `Tipo de Proposição` no menu lateral esquerdo\
 **E** clicar em visualizar um dos Tipo de Proposição listados\
 **ENTÃO** o sistema deve direcionar o usuário para uma tela de apenas visualização dos dados
+
+---

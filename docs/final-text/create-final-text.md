@@ -1,8 +1,12 @@
 # Criar Texto Final
 
+---
+
 **EU, ENQUANTO** usuário com permissões adequadas\
 **DESEJO** criar **OU** editar **OU** remover evento de Texto Final\
 **PARA** inserir **OU** adaptar **OU** remover os dados de Texto Final
+
+---
 
 ## CA01: Cadastrar novo Texto Final
 
@@ -72,3 +76,5 @@
 **OU** um usuário externo acessar uma proposta\
 **E** parâmetro `br.com.azi.sgpl.evento.TEXTO_FINAL.mostrarAnexo` for `False`\
 **ENTÃO** o sistema deve impedir de visualizar e realizar download do anexo do Texto Final na linha do tempo
+
+---

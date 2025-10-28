@@ -1,8 +1,12 @@
 # Criar Relator na Comissão
 
+---
+
 **EU, ENQUANTO** usuário com permissões adequadas\
 **DESEJO** criar **OU** editar **OU** remover evento de Relator na Comissão\
 **PARA** inserir **OU** adaptar **OU** remover os dados de Relator na Comissão
+
+---
 
 ## CA01: Cadastrar novo Relator na Comissão
 
@@ -82,3 +86,5 @@
 **E** que não houver protocolo registrada\
 **E** clicar em `Imprimir Relator na comissão` na linha do tempo\
 **ENTÃO** o sistema deve abrir documento nato digital
+
+---

@@ -1,8 +1,12 @@
 # Criar Movimentação Interna
 
+---
+
 **EU, ENQUANTO** usuário com permissões adequadas\
 **DESEJO** criar **OU** editar **OU** remover evento de Movimentação Interna\
 **PARA** inserir **OU** adaptar **OU** remover os dados de Movimentação Interna
+
+---
 
 ## CA01: Cadastrar novo Movimentação Interna
 
@@ -113,3 +117,5 @@
 **E** que houver movimentação interna registrada\
 **E** clicar em `Imprimir movimentação interna` na linha do tempo\
 **ENTÃO** o sistema deve abrir documento nato digital da Movimentação Interna
+
+---

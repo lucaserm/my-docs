@@ -1,8 +1,12 @@
 # Configuração de Classes de Unidade Organizacional
 
+---
+
 **EU, ENQUANTO** usuário com permissões adequadas\
 **DESEJO** criar OU editar OU remover Classes de Unidade Organizacional\
 **PARA** inserir OU adaptar OU remover os dados de Classes de Unidade Organizacional
+
+---
 
 ## CA01: Cadastrar nova Classes de Unidade Organizacional
 
@@ -50,3 +54,5 @@ OU editar uma das Classes de Unidade Organizacional já cadastrados\
 **E** adicionar um texto no campo superior direito\
 **E** clicar na lupa OU apertar `enter`\
 **ENTÃO** o sistema deve filtrar as Classes de Unidade Organizacional com base no texto inserido utilizando `contains`
+
+---

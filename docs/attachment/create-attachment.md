@@ -1,8 +1,12 @@
-- Criar Anexo
+# Criar Anexo
+
+---
 
 **EU, ENQUANTO** usuário com permissões adequadas\
 **DESEJO** criar **OU** editar **OU** remover evento de anexo\
 **PARA** inserir **OU** adaptar **OU** excluir os dados do anexo
+
+---
 
 ## CA01: Cadastrar novo evento de Anexo
 
@@ -84,3 +88,5 @@
 **OU** um usuário externo acessar uma proposta\
 **E** parâmetro `br.com.azi.sgpl.evento.ANEXO.mostrarAnexo` for `False`\
 **ENTÃO** o sistema deve impedir de visualizar e realizar download do anexo na linha do tempo
+
+---

@@ -1,8 +1,12 @@
 # Configuração de Assuntos
 
+---
+
 **EU, ENQUANTO** usuário com permissões adequadas\
 **DESEJO** criar **OU** editar **OU** remover Assuntos\
 **PARA** inserir **OU** adaptar **OU** remover os dados de Assuntos
+
+---
 
 ## CA01: Cadastrar novo Assunto
 
@@ -50,3 +54,5 @@
 **E** adicionar um texto no campo superior direito\
 **E** clicar na lupa **OU** apertar `enter`\
 **ENTÃO** o sistema deve filtrar os assuntos com base no texto inserido utilizando `contains`
+
+---
