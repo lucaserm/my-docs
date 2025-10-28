@@ -1,12 +1,8 @@
----
-title: Criar Emenda
----
-
 # Criar Emenda
 
 **EU, ENQUANTO** usuário com permissões adequadas\
-**DESEJO** criar **OU** editar **OU** remover evento de Emenda\
-**PARA** inserir **OU** adaptar **OU** remover os dados de Emenda
+**DESEJO** criar **OU** remover evento de Emenda\
+**PARA** inserir **OU** remover os dados de Emenda
 
 # CA01: Cadastrar nova Emenda
 **QUANDO** o usuário com permissão `Proposicao.NovaMovimentacao.Emenda.Editar` clicar em
@@ -18,25 +14,12 @@ title: Criar Emenda
 **E** mostrar na tela de `Emenda em elaboração`
 > (Há versão de atualização)
 
-# CA02: Editar Emenda
-**QUANDO** o usuário com permissão `Proposicao.NovaMovimentacao.Emenda.Editar` clicar em editar Emenda nas ações da linha do tempo\
-**E** realizar alterações no evento\
-**E** clicar em salvar\
-**ENTÃO** o sistema deve atualizar o cadastro de Emenda
-
-# CA03: Inserir arquivos ao cadastrar Emenda
+# CA02: Inserir arquivos ao cadastrar Emenda
 **QUANDO** o usuário com permissão `Proposicao.NovaMovimentacao.Emenda.Editar` clique em `Nova Movimentação`\
 **E** clicar em `Emenda`\
-**OU** editar uma Emenda\
 **E** inserir um ou mais anexos no fim do formulário\
 **E** clicar em salvar\
 **ENTÃO** o sistema deve inserir cadastrar o(s) anexo(s) no evento da proposta
-
-# CA04: Baixar arquivos cadastrados no Emenda
-**QUANDO** o usuário com permissão `Proposicao.NovaMovimentacao.Emenda.Editar` acessar uma proposta com Emenda\
-**E** a Emenda contenha um anexo inserido\
-**E** clicar em um dos anexos\
-**ENTÃO** o sistema deve realizar o download do arquivo
 
 # CA05: Remover Emenda
 **QUANDO** o usuário com permissão `Proposicao.NovaMovimentacao.Emenda.Excluir` clique em excluir Emenda nas ações da linha do tempo\
