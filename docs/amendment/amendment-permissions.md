@@ -5,6 +5,9 @@
 - Cria Emenda
 - Edita Emenda
 - Lê anexos
+- Insere anexos
+- Insere signatários
+- Envia para protocolar
 
 ## `Proposicao.NovaMovimentacao.Emenda.Excluir`
 
