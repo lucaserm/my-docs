@@ -1,10 +1,6 @@
----
-id: credentials
-title: Credenciais
-slug: /credentials
----
+# Credenciais Padrão
 
-## Credenciais padrão
+---
 
 - ADMINISTRADOR DO SISTEMA [HOM]
 
@@ -19,3 +15,5 @@ slug: /credentials
     <span>login: `kcosta`</span>
     <span>password: `senha@123`</span>
 </p>
+
+---

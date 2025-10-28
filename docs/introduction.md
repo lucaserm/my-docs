@@ -1,12 +1,15 @@
 ---
-id: introduction
 title: Introdução
 slug: /
 ---
 
 # Introdução ao Projeto SGPL
 
+---
+
 Este site de documentações apresenta uma visão geral técnica do sistema SGPL, uma plataforma de gerenciamento de processos legislativos da assembleia legislativa do Mato Grosso do Sul
+
+---
 
 ## Arquitetura do Sistema
 
@@ -14,9 +17,7 @@ Este site de documentações apresenta uma visão geral técnica do sistema SGPL
 - **Frontend:** Aplicação web construída com AngularJS.
 - **Autenticação e Autorização:** Implementação via Cookies para controle de acesso.
 
-## Documentação
-
-- **Proposições:** Documentação sobre o processo de criação e tramitação de proposições.
+---
 
 ## Siglas
 
@@ -28,3 +29,5 @@ Este site de documentações apresenta uma visão geral técnica do sistema SGPL
 ---
 
 Este documento será atualizado ao decorer do projeto para refletir a evolução do mesmo e as melhores práticas adotadas.
+
+---

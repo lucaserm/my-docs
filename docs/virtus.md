@@ -4,9 +4,13 @@ title: Virtus
 
 # Sincronização com virtus
 
+---
+
 **EU, ENQUANTO** usuário com permissões adequadas\
 **DESEJO** sincronizar documentos com o virtus\
 **PARA** assinar **E** registrar os documentos em um processo digital
+
+---
 
 ## CA01: Sincronizar ao cadastrar eventos
 
@@ -53,3 +57,5 @@ title: Virtus
 **E** clicar em `editar` em um documento já assinado\
 **E** clicar em salvar\
 **ENTÃO** o sistema deve retirar a assinatura do documento
+
+---
