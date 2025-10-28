@@ -24,7 +24,13 @@ const sidebars: SidebarsConfig = {
     {
       type: "category",
       label: "Emenda",
-      items: ["amendment/create-amendment"],
+      items: [
+        "amendment/amendment-params",
+        "amendment/create-amendment",
+        "amendment/update-amendment",
+        "amendment/delete-amendment",
+        "amendment/read-amendment-attachments",
+      ],
     },
     {
       type: "category",
