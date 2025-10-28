@@ -27,11 +27,16 @@ const sidebars: SidebarsConfig = {
       items: [
         "amendment/amendment-params",
         "amendment/amendment-permissions",
-        "amendment/print-receipt-amendment",
         "amendment/create-amendment",
         "amendment/update-amendment",
         "amendment/delete-amendment",
         "amendment/read-amendment-attachments",
+        "amendment/print-amendment",
+        "amendment/print-receipt-amendment",
+        "amendment/amendment-observation",
+        "amendment/amendment-protocol",
+        "amendment/create-amendment-attachment",
+        "amendment/create-amendment-signatories",
       ],
     },
     {
