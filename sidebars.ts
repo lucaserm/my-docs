@@ -26,6 +26,7 @@ const sidebars: SidebarsConfig = {
       label: "Emenda",
       items: [
         "amendment/amendment-params",
+        "amendment/amendment-permissions",
         "amendment/create-amendment",
         "amendment/update-amendment",
         "amendment/delete-amendment",
